@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <>
       <nav className="fixed w-full h-16 shadow-xl bg-white">
-        <div className="flex justify-between items-center w-full h-full lg:px-28 gap-2">
+        <div className="flex justify-between items-center w-full h-full px-0 md:px-28 gap-2">
           <Link href="/" className="text-2xl font-bold">
             <Image
               src={Logo}
               alt="logo"
               width="180"
               height="180"
-              className="cursor-pointer"
+              className="cursor-pointer lg:w-48 lg:h-48 w-40 h-30"
               priority
             />
           </Link>
@@ -30,8 +30,8 @@ export default function Home() {
               <Link key={item.href} href={item.href}>{item.name}</Link>
             ))}
           </div>
-          <div className="mr-10">
-            <button className="px-8 py-3 rounded-lg bg-[#439fe4] text-white text-medium font-bold">Sign In</button>
+          <div className="lg:mr-10 mr-18">
+            <button className="px-4 py-2.5 md:px-8 md:py-3 rounded-lg bg-[#439fe4] text-white text-medium font-bold">Sign In</button>
           </div>
         </div>
       </nav>
