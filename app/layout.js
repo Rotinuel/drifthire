@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/navbar";
 
 
 
@@ -10,7 +11,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Drift Hire",
+  title: "Find Remote Jobs | Hire Remote Staff, Virtual Assistants, Freelancers & More",
   description: "Smart way to search and apply for remote jobs",
 };
 
@@ -20,7 +21,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${montserrat.variable} antialiased`}
       >
-        {children}
+        <Navbar />
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
