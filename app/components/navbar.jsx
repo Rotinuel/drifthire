@@ -8,9 +8,8 @@ import {
   AiOutlineClose,
   AiOutlineMenu,
 } from "react-icons/ai";
-import { FaSearch, FaTools, FaUsers } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
 import { FiChevronDown } from "react-icons/fi";
-import { GiSkills } from "react-icons/gi";
 import { MdHowToReg } from "react-icons/md";
 
 const Navbar = () => {

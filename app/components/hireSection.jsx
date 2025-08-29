@@ -18,9 +18,9 @@ export default function HireSection() {
       </div>
 
       {/* Right Side - Employers */}
-      <div className="bg-white text-black p-10 flex flex-col justify-center">
+      <div className="bg-yellow-400 text-white p-10 flex flex-col justify-center">
         <div className="mb-4">
-          <span className="bg-yellow-400 text-black font-bold px-4 py-1 uppercase text-sm">Employers</span>
+          <span className="bg-blue-400 text-black font-bold px-4 py-1 uppercase text-sm">Employers</span>
         </div>
         <h1 className="text-4xl font-bold">Hire Smarter.</h1>
         <p className="text-2xl font-light mb-2">Build your Dream Team.</p>
@@ -28,9 +28,9 @@ export default function HireSection() {
         <p className="mb-6 text-sm">job candidates in our database to be discovered, or sign up to post a free job.</p>
 
         <div className="space-y-4">
-          <button className="bg-yellow-400 font-semibold px-6 py-3 rounded hover:bg-yellow-500 w-full text-left">Remote Worker Database →</button>
-          <button className="bg-yellow-400 font-semibold px-6 py-3 rounded hover:bg-yellow-500 w-full text-left">Post Remote Jobs →</button>
-          <button className="bg-yellow-400 font-semibold px-6 py-3 rounded hover:bg-yellow-500 w-full text-left">Get Free Hiring Help →</button>
+          <button className="bg-white text-yellow-400 font-semibold px-6 py-3 rounded hover:bg-yellow-500 w-full text-left">Remote Worker Database →</button>
+          <button className="bg-white text-yellow-400 font-semibold px-6 py-3 rounded hover:bg-yellow-500 w-full text-left">Post Remote Jobs →</button>
+          <button className="bg-white text-yellow-400  font-semibold px-6 py-3 rounded hover:bg-yellow-500 w-full text-left">Get Free Hiring Help →</button>
         </div>
       </div>
     </div>
