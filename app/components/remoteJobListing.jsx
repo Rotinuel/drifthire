@@ -14,21 +14,21 @@ const RemoteJobListings = () => {
         {
             category: "HR & Recruiting",
             company: "Reeds Groups",
-            title: "Data Entry And Typing.",
+            title: "Data Entry And Typing. - Custom Athlete Apparel",
             logo: "/logos/reeds.png", // Replace with real image path or placeholder
             posted: "3 days ago",
         },
         {
             category: "Legal & Compliance",
             company: "Latitude",
-            title: "California Employment Attorney",
+            title: "California Employment Attorney - Custom Athlete Apparel",
             logo: "/logos/latitude.png",
             posted: "3 days ago",
         },
         {
             category: "Writing, Editing & Content",
             company: "DataCamp",
-            title: "Data Science Editor",
+            title: "Data Science Editor - Custom Athlete Apparel",
             logo: "/logos/datacamp.png",
             posted: "6 days ago",
         },
@@ -96,6 +96,7 @@ const RemoteJobListings = () => {
                 infiniteLoop
                 showThumbs={false}
                 showStatus={false}
+                showIndicators={false}
                 interval={2000}
             >
                 {jobChunks.map((chunk, i) => (
@@ -103,7 +104,7 @@ const RemoteJobListings = () => {
                         {chunk.map((job, index) => (
                             <div
                                 key={index}
-                                className="bg-white rounded-lg shadow border w-full sm:w-[270px] text-left"
+                                className="bg-white rounded-lg shadow border w-[85%] lg:w-full sm:w-[270px] text-left"
                             >
                                 <div className="bg-blue-500 text-white font-bold text-sm px-4 py-2 flex justify-between items-center rounded-t">
                                     {job.category}
@@ -129,7 +130,7 @@ const RemoteJobListings = () => {
                 ))}
             </Carousel>
 
-            <button className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded">
+            <button className="mt-3 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded">
                 Show All Jobs
             </button>
         </section>

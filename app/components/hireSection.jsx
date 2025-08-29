@@ -1,6 +1,6 @@
 export default function HireSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen font-sans">
+    <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen ">
       {/* Left Side - Job Seekers */}
       <div className="bg-blue-500 text-white p-10 flex flex-col justify-center">
         <div className="mb-4">

@@ -5,7 +5,9 @@ export default function Home() {
   
   return (
     <>
-      <HireSection />
+      <main className="pt-16">
+        <HireSection />
+      </main>
       <RemoteJobListings />
     </>
   );
