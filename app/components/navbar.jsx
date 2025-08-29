@@ -16,9 +16,6 @@ import { MdHowToReg } from "react-icons/md";
 const Navbar = () => {
   const navList = [
     { name: "Find Work", href: "#" },
-    { name: "Find Worker", href: "#" },
-    { name: "Services", href: "#" },
-    { name: "Skills Tests", href: "#" },
     { name: "Blog", href: "#" },
     {
       name: "More Info",
@@ -26,9 +23,6 @@ const Navbar = () => {
       children: [
         { name: "About us", href: "#a", icon: <FaUsers /> },
         { name: "How to hire", href: "#b", icon: <MdHowToReg /> },
-        { name: "How to find work", href: "#c", icon: <FaSearch /> },
-        { name: "Job Skills Center", href: "#d", icon: <FaTools /> },
-        { name: "Skills Test Guide", href: "#e", icon: <GiSkills /> },
         { name: "FAQ", href: "#f", icon: <AiOutlineQuestionCircle /> },
       ],
     },
