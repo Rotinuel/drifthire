@@ -84,9 +84,9 @@ const RemoteJobListings = () => {
     const jobChunks = chunkArray(jobs, jobsPerSlide);
 
     return (
-        <section className="py-16 bg-white text-center">
+        <section className="py-10 bg-white text-center">
             <h2 className="text-3xl font-bold mb-2">Recent</h2>
-            <h3 className="bg-blue-500 text-white inline-block px-6 py-2 rounded text-xl font-semibold mb-10">
+            <h3 className="bg-blue-500 text-white inline-block px-6 py-2 rounded text-xl font-semibold mb-6">
                 Remote Job Listings
             </h3>
 
