@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function RemoteRPO() {
   return (
-    <section className="p-8 bg-white shadow-lg rounded-lg">
+    <section className="p-8 bg-white shadow-lg rounded-lg text-justify">
       <h2 className=" lg:text-[36px] lg:leading-[42px] font-semibold font-montserrat mb-18">
         Choose our <span className='text-[#439fe4]'>Remote RPO Option</span> and Let Us Do the Sourcing
       </h2>
@@ -17,7 +17,7 @@ export default function RemoteRPO() {
           />
         </div>
         <div className='flex flex-col items-center text-align rounded-xl shadow-xl p-8'>
-          <p className="text-lg text-gray-700">
+          <p className="text-sm lg:text-lg text-gray-700">
             Many employers on HireBasis post jobs and contact remote candidates
             directly from our global candidate pool.
           </p>
