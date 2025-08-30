@@ -69,9 +69,6 @@ const RemoteJobListings = () => {
         },
     ];
 
-
-
-
     // Helper to chunk the jobs into groups of 3 (or any number)
     const chunkArray = (arr, size) =>
         arr.reduce((acc, _, i) => {
@@ -104,7 +101,7 @@ const RemoteJobListings = () => {
                         {chunk.map((job, index) => (
                             <div
                                 key={index}
-                                className="bg-white rounded-lg shadow border w-[85%] lg:w-full sm:w-[270px] text-left"
+                                className="bg-white rounded-lg shadow border md:w-full sm:w-[240px] text-left"
                             >
                                 <div className="bg-blue-500 text-white font-bold text-sm px-4 py-2 flex justify-between items-center rounded-t">
                                     {job.category}
